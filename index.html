@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <title>Formulario_Nombre_Apellido</title>
+</head>
+<body class="letra">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <img src="assets/img/logo_cft.PNG" alt="Descripcion imagen">
+            <a class="navbar-brand" href="#">Inicio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Admision<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 
+                      <select name="" id="">
+                        <option selected="">Carreras</option>
+                        <option value="1">TNS en Informática</option>
+                        <option value="2">TNS en Electricidad</option>
+                        <option value="3">TNS en Parvulo</option>
+                      </select>
+                    </a>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contactanos</a>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Buscar la Carrera" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+              </form>
+            </div>
+          </nav>
+    <img src="assets/img/portada (1).jpeg" alt="Descripcion de imagen" class="imagen-1">
+    <p class="p">Si tienes una duda. Usa nuestro formulario de contacto para realizar las preguntas que necesitas. Recuerda que estamos para ayudarte y ofrecerte educacion de calidad</p>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1 class="text-center">Formulario</h1>
+                        <div class="mb-3">
+                            <input placeholder="Nombre" class="form-control" name="Nombre" required>
+                        </div>
+
+                         <div class="mb-3"> 
+                            <input placeholder="Apellido" class="form-control" name="Apellido" required>
+                        </div>
+
+                        <div class="mb-3">
+                             <input placeholder="Teléfono" class="form-control" name="Teléfono" required>
+                        </div>
+
+                        <div class="mb-3">
+                             <input placeholder="Carrera" class="form-control" name="Carrera" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <input type="number" placeholder="Edad" class="form-control" name="Edad" min="0" required>
+                        </div>
+
+                        <div class="mb-3">
+                          <input placeholder="Mensaje" class="form-control" name="Mensaje" required>
+                        </div>
+                        <button type="submit" class="button">Enviar</button>
+                </div>        
+            </div>            
+        </div>        
+
+</body>
+</html>
